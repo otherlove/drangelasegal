@@ -1,6 +1,6 @@
 <template>
   <div class="index-page no-page-padding">
-    <div class="home-banner-container">
+    <div class="home-banner-container test">
       <div v-if="data.banner">
         <HomeBanner :data="data.banner" />
       </div>
